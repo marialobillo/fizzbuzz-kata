@@ -16,4 +16,8 @@ describe('FizzBuzz Kata', function(){
 		assert.equal(FizzBuzz.fizzbuzz(10), 'BUZZ');
 	});
 
+	it('should return FIZZBUZZ if number is divisible by 3 and 5', () => {
+		assert.equal(FizzBuzz.fizzbuzz(15), 'FIZZBUZZ');
+	});
+
 });
